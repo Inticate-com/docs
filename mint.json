@@ -1,30 +1,26 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Inticate",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#121212",
+    "light": "#ffffff",
+    "dark": "#121212",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#ffffff",
+      "to": "#121212"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "https://inticate.com/contact"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
     {
       "name": "API Reference",
@@ -33,28 +29,26 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Home",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://inticate.com"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://inticate.com/discord"
     },
     {
-      "name": "Blog",
+      "name": "News",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://inticate.com/news"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
@@ -84,8 +78,7 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://twitter.com/inticatecom",
+    "github": "https://github.com/Inticate-com"
   }
 }
