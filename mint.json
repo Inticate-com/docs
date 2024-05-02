@@ -6,6 +6,7 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "openapi": ["/openapi.json"],
   "colors": {
     "primary": "#121212",
     "light": "#ffffff",
@@ -23,16 +24,8 @@
   ],
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
-    {
-      "name": "Volox",
-      "url": "volox"
-    },
-    {
-      "name": "Game Guard",
-      "url": "game-guard"
+      "name": "Status Page",
+      "url": "status-page"
     }
   ],
   "anchors": [
@@ -55,33 +48,16 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction"
-      ]
+      "pages": ["introduction"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "Status Page",
+      "pages": ["status-page/introduction"]
     },
     {
-      "group": "API Documentation",
+      "group": "API Reference",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "status-page/api-reference/get-servers"
       ]
     }
   ],
