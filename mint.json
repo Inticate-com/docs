@@ -25,6 +25,14 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Volox",
+      "url": "volox"
+    },
+    {
+      "name": "Game Guard",
+      "url": "game-guard"
     }
   ],
   "anchors": [
