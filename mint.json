@@ -6,7 +6,6 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "openapi": ["/openapi.json"],
   "colors": {
     "primary": "#121212",
     "light": "#ffffff",
@@ -25,7 +24,8 @@
   "tabs": [
     {
       "name": "Status Page",
-      "url": "status-page"
+      "url": "status-page",
+      "openapi": "/statusApi.json"
     }
   ],
   "anchors": [
@@ -52,13 +52,11 @@
     },
     {
       "group": "Status Page",
-      "pages": ["status-page/introduction"]
+      "pages": ["status-page/introduction", "status-page/installation"]
     },
     {
       "group": "API Reference",
-      "pages": [
-        "status-page/api-reference/get-servers"
-      ]
+      "pages": ["status-page/api-reference/get-servers"]
     }
   ],
   "footerSocials": {

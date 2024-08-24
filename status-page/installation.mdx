@@ -1,0 +1,31 @@
+The installation for Inticate Status is made to be easy to do and able to be done in a short amount of time. Please read the following steps provided below in order to continue with the installation process.
+
+## Environment Setup
+1. Copy the application onto your machine using git.
+    ```bash
+    git clone https://github.com/Inticate-com/inticate-status
+    ```
+2. Setup local files to be used with the application.
+    Copy the example configuration and edit to your liking.
+    ```bash
+    cp example.config.json config.json
+    ```
+    Prepare the environment variables.
+    ```bash
+    cp .env.example .env
+    ```
+    If you change the `NEXT_PUBLIC_API_ACCESS_KEY` value, please make sure to edit any checks in `src/pages/index.tsx` so that the values match in the check.
+    
+## Preparing Application for Production
+1. Make sure that you are in the root directory of the project.
+2. Build the application.
+    ```bash
+    npm run build
+    ```
+
+## You're Done!
+All you have left to do now is run your application with the following command.
+```bash
+npm run start
+```
+Thank you for using Inticate Status.
